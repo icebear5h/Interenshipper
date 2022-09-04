@@ -4,7 +4,6 @@ import _ from "lodash";
 class TableBody extends Component {
   renderCell = (item, column) => {
     if (column.content) return column.content(item);
-
     return _.get(item, column.path);
   };
 
@@ -12,15 +11,24 @@ class TableBody extends Component {
     return item._id + (column.path || column.key);
   };
 
+  getColor(item){
+    if (!item.pay) return;
+    let color = "table-"
+    if (item.pay === "Paid") color = color+"success";
+    else if (item.pay === "Unpaid") color = color+"warning";
+    else color = color + "danger";
+    return color;
+  }
+
   render() {
     const { data, columns } = this.props;
-
+  
     return (
       <tbody>
         {data.map(item => (
           <tr key={item._id}>
             {columns.map(column => (
-              <td key={this.createKey(item, column)}>
+              <td key={this.createKey(item, column)} className={this.getColor(item)}>
                 {this.renderCell(item, column)}
               </td>
             ))}

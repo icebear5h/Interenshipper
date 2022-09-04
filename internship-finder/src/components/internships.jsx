@@ -22,9 +22,9 @@ class Internships extends Component {
     };
 
     componentDidMount() {
-        const genres = [{ _id: "", name: "All Genres" }, getGenres()];
+        const genres = [{ _id: "", name: "All Genres" }, ...getGenres()];
         const internships = getInternships();
-        console.log(internships,genres)
+        //console.log(internships,genres)
         this.setState({ internships, genres });
     }
 
@@ -94,7 +94,7 @@ class Internships extends Component {
 
         return (
             <div className="row">
-                <div className="col-3">
+                <div className="col-2 align-self-start">
                     <ListGroup
                         items={this.state.genres}
                         selectedItem={this.state.selectedGenre}

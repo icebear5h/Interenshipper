@@ -7,19 +7,11 @@ const NavBar = () => {
       <Link className="navbar-brand" to="/">
         Internshipper
       </Link>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav">
+      <div className="collapse navbar-collapse" id="navbarText">
+        <ul className="navbar-nav">
           <NavLink className="nav-item nav-link" to="/internships">
             Internships
           </NavLink>
@@ -29,8 +21,8 @@ const NavBar = () => {
           <NavLink className="nav-item nav-link" to="/register">
             Register
           </NavLink>
-          
-        </div>
+
+        </ul>
       </div>
     </nav>
   );

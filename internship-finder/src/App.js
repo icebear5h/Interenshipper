@@ -21,6 +21,7 @@ class App extends Component {
           <Switch>
             <Route path="/register" component={RegisterForm} />
             <Route path="/login" component={LoginForm} />
+            {/* <Route path="/internships/:id" component={InternshipPage} /> */}
             <Route path="/internships" component={Internships} />
             <Route path="/home" component={Home} />
             <Route path="/not-found" component={NotFound} />

@@ -5,46 +5,55 @@ const internships = [
         _id: "5b21ca3eeb7f6fbccd471815",
         title: "John Hopkins",
         genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Engineering" },
+        pay: "Unpaid"
     },
     {
         _id: "5b21ca3eeb7f6fbccd471816",
         title: "NASA",
         genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Engineering" },
+        pay: "Paid"
     },
     {
         _id: "5b21ca3eeb7f6fbccd471817",
         title: "NYU",
         genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Business" },
+        pay: "Unpaid"
     },
     {
         _id: "5b21ca3eeb7f6fbccd471819",
         title: "National Institute of Health",
         genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Medical" },
+        pay: "Unpaid"
     },
     {
         _id: "5b21ca3eeb7f6fbccd47181a",
         title: "Vistar Institute",
         genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Medical" },
+        pay: "Unpaid"
     },
     {
         _id: "5b21ca3eeb7f6fbccd47181b",
         title: "Rockefelleer University",
         genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Medical" },
+        pay: "Unpaid"
     },
     {
         _id: "5b21ca3eeb7f6fbccd47181e",
         title: "The Bella Abzug Leadership Institute",
         genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Business" },
+        pay: "Unpaid"
     },
     {
         _id: "5b21ca3eeb7f6fbccd47181f",
         title: "DOROT Summer Teen Internship",
         genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Business" },
+        pay: "Unpaid"
     },
     {
         _id: "5b21ca3eeb7f6fbccd471821",
         title: "Cosmos",
         genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Engineering" },
+        pay: "You Pay"
     }
 ];
 

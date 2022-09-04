@@ -8,9 +8,13 @@ class InternshipsTable extends Component {
     {
       path: "title",
       label: "Title",
-      content: internship => <Link to={`/internship/${internship._id}`}>{internship.title}</Link>
+      content: internship => <Link className="link-cyan-800" to={`/internship/${internship._id}`}>{internship.title}</Link>
     },
     { path: "genre.name", label: "Genre" },
+    {
+      path: "pay",
+      label: "Pay",
+    }
   ];
 
   deleteColumn = {
