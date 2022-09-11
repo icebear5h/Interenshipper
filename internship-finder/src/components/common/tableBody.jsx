@@ -14,7 +14,7 @@ class TableBody extends Component {
   getColor(item){
     if (!item.pay) return;
     let color = "table-"
-    if (item.pay === "Paid") color = color+"success";
+    if (item.pay === "Stipend") color = color+"success";
     else if (item.pay === "Unpaid") color = color+"warning";
     else color = color + "danger";
     return color;

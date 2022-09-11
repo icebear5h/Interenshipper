@@ -14,6 +14,10 @@ class InternshipsTable extends Component {
     {
       path: "pay",
       label: "Pay",
+    },
+    {
+      key: "add to list",
+      content: internship => (<AddList added ={internship.added} onClick={()=>this.props.onAdd(internship)}/>)
     }
   ];
 

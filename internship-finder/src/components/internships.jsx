@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-//import { toast } from "react-toastify";
+import { toast } from "react-toastify";
 import InternshipsTable from "./internshipsTable";
 import ListGroup from "./common/listGroup";
 import Pagination from "./common/pagination";
-import { getInternships } from "../services/fakeInternshipService"
-import { getGenres } from "../services/fakeGenreService";
+import { getInternships } from "../services/internshipService"
+import { getGenres } from "../services/genreService";
 import { paginate } from "../utils/paginate";
 import _ from "lodash";
 import SearchBox from "./searchBox";
@@ -21,18 +21,13 @@ class Internships extends Component {
         sortColumn: { path: "title", order: "asc" }
     };
 
-    componentDidMount() {
-        const genres = [{ _id: "", name: "All Genres" }, ...getGenres()];
-        const internships = getInternships();
+    async componentDidMount() {
+        const {data} = await getGenres();
+        const genres = [{ _id: "", name: "All Genres" }, ...data];
+        const {data:internships} = await getInternships();
         //console.log(internships,genres)
         this.setState({ internships, genres });
     }
-
-    handleDelete = internship => {
-        const originalInternships = this.state.internships;
-        const internships = originalInternships.filter(m => m._id !== internship._id);
-        this.setState({ internships });
-    };
 
     //   handleLike = internship => {
     //     const internships = [...this.state.internships];
