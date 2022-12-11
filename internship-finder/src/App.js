@@ -7,11 +7,12 @@ import RegisterForm from "./components/registerForm";
 import LoginForm from "./components/loginForm";
 import Internships from "./components/internships";
 import NotFound from "./components/notFound";
+import Logout from "./components/logout";
 import auth from "./services/authService";
+import InternshipPage from "./components/internshipPage";
 import "react-toastify/dist/ReactToastify.css";
 
 import './App.css';
-
 class App extends Component {
   state={};
   componentDidMount() {
@@ -28,6 +29,8 @@ class App extends Component {
           <Switch>
             <Route path="/register" component={RegisterForm} />
             <Route path="/login" component={LoginForm} />
+            <Route path="/logout" component={Logout} />
+            <Route path="/myInterestList" component={InternshipPage} />
             {/* <Route path="/internships/:id" component={InternshipPage} /> */}
             <Route path="/internships" component={Internships} />
             <Route path="/home" component={Home} />

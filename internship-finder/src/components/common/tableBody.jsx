@@ -25,8 +25,8 @@ class TableBody extends Component {
   
     return (
       <tbody>
-        {data.map(item => (
-          <tr key={item._id}>
+        {data.map((item,idx) => (
+          <tr key={`tableItem_${idx}${item._id}`}>
             {columns.map(column => (
               <td key={this.createKey(item, column)} className={this.getColor(item)}>
                 {this.renderCell(item, column)}
@@ -40,3 +40,4 @@ class TableBody extends Component {
 }
 
 export default TableBody;
+export function getColor(){};

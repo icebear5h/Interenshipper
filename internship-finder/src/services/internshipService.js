@@ -25,6 +25,6 @@ export function saveInternship(internship) {
   return http.post(apiEndpoint, internship);
 }
 
-export function deleteInternship(internshipId) {
-  return http.delete(InternshipUrl(internshipId));
-}
+// export function deleteInternship(internshipId) {
+//   return http.delete(InternshipUrl(internshipId));
+// }

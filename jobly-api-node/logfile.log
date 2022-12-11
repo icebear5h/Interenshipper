@@ -1,0 +1,142 @@
+{"level":"info","message":"Listening on port 3900...","timestamp":"2018-07-25T19:02:18.260Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2018-07-25T19:02:18.281Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2018-07-25T19:09:55.035Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2018-07-25T19:09:55.055Z"}
+{"message":"Cannot read property 'isAdmin' of undefined","stack":"TypeError: Cannot read property 'isAdmin' of undefined\n    at module.exports (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/middleware/admin.js:8:17)\n    at /Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express-async-errors/index.js:17:17\n    at Layer.handle [as handle_request] (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/route.js:137:13)\n    at module.exports (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/middleware/auth.js:5:36)\n    at /Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express-async-errors/index.js:17:17\n    at Layer.handle [as handle_request] (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/route.js:112:3)\n    at /Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express-async-errors/index.js:17:17\n    at Layer.handle [as handle_request] (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/moshfeghhamedani/Dropbox/Courses/React/Demo/vidly-api-node/node_modules/express/lib/router/index.js:47:12)","level":"error","timestamp":"2018-07-25T19:11:08.638Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2018-07-25T19:11:36.087Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2018-07-25T19:11:36.108Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2018-07-25T19:11:40.247Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2018-07-25T19:11:40.267Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2018-07-25T19:11:52.261Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2018-07-25T19:11:52.282Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-09T05:51:30.176Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-09T05:51:30.195Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-09T06:17:11.943Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-09T06:17:11.960Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-09T06:20:42.857Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-09T06:20:42.879Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-09T15:45:30.746Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-09T15:45:30.764Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-11T22:52:29.896Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-11T22:52:29.916Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-11T23:05:35.585Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-11T23:05:35.605Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-18T04:26:43.331Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-18T04:26:43.363Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-21T04:03:04.998Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-21T04:03:05.018Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-21T04:40:53.027Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-21T04:40:53.044Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-26T23:07:54.983Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-26T23:07:55.021Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-26T23:23:31.294Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-26T23:23:31.314Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-26T23:28:32.180Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-26T23:28:32.198Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-26T23:29:29.569Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-26T23:29:29.588Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-26T23:33:45.855Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-26T23:33:45.874Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-26T23:53:54.278Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-26T23:53:54.299Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-26T23:56:38.002Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-26T23:56:38.022Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-27T00:00:28.873Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-27T00:00:28.892Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-27T00:04:21.443Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-27T00:04:21.462Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-09-27T00:05:26.402Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-09-27T00:05:26.422Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-04T23:04:10.243Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-04T23:04:10.263Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-06T16:26:43.024Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-06T16:26:43.042Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-06T16:28:32.769Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-06T16:28:32.784Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-06T19:27:12.292Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-06T19:27:12.310Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-06T20:22:13.191Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-06T20:22:13.208Z"}
+{"message":"Cannot read property 'interestList' of null","stack":"TypeError: Cannot read property 'interestList' of null\n    at /Users/henryhu/Documents/InternshipFinder/jobly-api-node/routes/users.js:39:8\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","level":"error","timestamp":"2022-10-06T20:23:22.914Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-06T20:24:44.937Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-06T20:24:44.953Z"}
+{"message":"Cannot read property 'interestList' of null","stack":"TypeError: Cannot read property 'interestList' of null\n    at /Users/henryhu/Documents/InternshipFinder/jobly-api-node/routes/users.js:39:8\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","level":"error","timestamp":"2022-10-06T20:24:49.622Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-06T20:28:25.726Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-06T20:28:25.742Z"}
+{"message":"Cannot read property 'interestList' of null","stack":"TypeError: Cannot read property 'interestList' of null\n    at /Users/henryhu/Documents/InternshipFinder/jobly-api-node/routes/users.js:39:11\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","level":"error","timestamp":"2022-10-06T20:28:35.281Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:04:31.239Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:04:31.259Z"}
+{"message":"Cannot read property 'interestList' of null","stack":"TypeError: Cannot read property 'interestList' of null\n    at /Users/henryhu/Documents/InternshipFinder/jobly-api-node/routes/users.js:39:11\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","level":"error","timestamp":"2022-10-12T00:05:13.530Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:09:44.994Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:09:45.013Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:11:15.562Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:11:15.582Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:17:58.037Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:17:58.060Z"}
+{"message":"Cannot read property 'includes' of undefined","stack":"TypeError: Cannot read property 'includes' of undefined\n    at /Users/henryhu/Documents/InternshipFinder/jobly-api-node/routes/users.js:40:56\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","level":"error","timestamp":"2022-10-12T00:18:04.576Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:19:33.590Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:19:33.614Z"}
+{"message":"Cannot read property 'includes' of undefined","stack":"TypeError: Cannot read property 'includes' of undefined\n    at /Users/henryhu/Documents/InternshipFinder/jobly-api-node/routes/users.js:40:47\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","level":"error","timestamp":"2022-10-12T00:19:41.943Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:22:35.985Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:22:36.003Z"}
+{"message":"Cannot read property 'includes' of undefined","stack":"TypeError: Cannot read property 'includes' of undefined\n    at /Users/henryhu/Documents/InternshipFinder/jobly-api-node/routes/users.js:40:47\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","level":"error","timestamp":"2022-10-12T00:22:45.351Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:27:01.702Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:27:01.722Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:33:49.711Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:33:49.733Z"}
+{"message":"Cannot read property 'includes' of undefined","stack":"TypeError: Cannot read property 'includes' of undefined\n    at /Users/henryhu/Documents/InternshipFinder/jobly-api-node/routes/users.js:57:27\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","level":"error","timestamp":"2022-10-12T00:33:54.548Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:34:27.951Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:34:27.972Z"}
+{"message":"Cannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (internal/errors.js:322:7)\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (/Users/henryhu/Documents/InternshipFinder/jobly-api-node/node_modules/express/lib/response.js:767:10)\n    at ServerResponse.send (/Users/henryhu/Documents/InternshipFinder/jobly-api-node/node_modules/express/lib/response.js:170:12)\n    at ServerResponse.json (/Users/henryhu/Documents/InternshipFinder/jobly-api-node/node_modules/express/lib/response.js:267:15)\n    at ServerResponse.send (/Users/henryhu/Documents/InternshipFinder/jobly-api-node/node_modules/express/lib/response.js:158:21)\n    at /Users/henryhu/Documents/InternshipFinder/jobly-api-node/routes/users.js:64:7\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","code":"ERR_HTTP_HEADERS_SENT","level":"error","timestamp":"2022-10-12T00:34:35.258Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-12T00:36:27.379Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-12T00:36:27.401Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-27T22:00:09.263Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-27T22:00:09.281Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-27T22:07:08.277Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-27T22:07:08.292Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-30T18:31:33.414Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-30T18:31:33.434Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-30T18:34:45.475Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-30T18:34:45.492Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-30T18:35:05.704Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-30T18:35:05.721Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-30T18:48:12.781Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-30T18:48:12.797Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-10-31T05:43:36.061Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-10-31T05:43:36.094Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-11-01T03:03:14.534Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-11-01T03:03:14.553Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-11-01T03:52:16.909Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-11-01T03:52:16.927Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-11-01T03:54:34.656Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-11-01T03:54:34.673Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-11-01T04:37:57.670Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-11-01T04:37:57.685Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-11-01T04:53:39.758Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-11-01T04:53:39.774Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-11-01T04:55:09.482Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-11-01T04:55:09.498Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-11-01T05:03:03.347Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-11-01T05:03:03.363Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-11-01T05:05:17.654Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-11-01T05:05:17.668Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-11-01T23:00:40.951Z"}
+{"level":"info","message":"Connected to mongodb://localhost/internshipper...","timestamp":"2022-11-01T23:00:41.039Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-11-13T20:05:09.414Z"}
+{"level":"info","message":"Connected to mongodb+srv://icebear5h:6FkPqeO6gqRMp1pZ@internshipper.hngy0.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2022-11-13T20:05:09.774Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-11-30T20:50:09.958Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-11-30T21:01:21.610Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-12-11T21:17:52.341Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-12-11T21:26:57.233Z"}
+{"level":"info","message":"Connected to mongodb+srv://icebear5h:henry12345joey12345@internshipper.hngy0.mongodb.net/...","timestamp":"2022-12-11T21:26:57.690Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-12-11T21:29:35.843Z"}
+{"level":"info","message":"Connected to mongodb+srv://icebear5h:henry12345joey12345@internshipper.hngy0.mongodb.net/test...","timestamp":"2022-12-11T21:29:36.243Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-12-11T21:33:20.304Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-12-11T21:33:37.648Z"}
+{"level":"info","message":"Connected to mongodb+srv://icebear5h:henry12345joey12345@internshipper.hngy0.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2022-12-11T21:33:38.045Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-12-11T21:34:51.234Z"}
+{"level":"info","message":"Connected to mongodb+srv://icebear5h:henry12345joey12345@internshipper.hngy0.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2022-12-11T21:34:51.597Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2022-12-11T21:36:09.464Z"}
+{"level":"info","message":"Connected to mongodb+srv://icebear5h:henry12345joey12345@internshipper.hngy0.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2022-12-11T21:36:09.850Z"}
+{"level":"info","message":"Listening on port 3900...","timestamp":"2022-12-11T21:42:29.066Z"}
+{"level":"info","message":"Connected to mongodb+srv://icebear5h:henry12345joey12345@internshipper.hngy0.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2022-12-11T21:42:29.546Z"}

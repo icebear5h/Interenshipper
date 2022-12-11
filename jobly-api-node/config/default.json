@@ -1,0 +1,7 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb+srv://icebear5h:henry12345joey12345@internshipper.hngy0.mongodb.net/?retryWrites=true&w=majority",
+  "port": "3900",
+  "requiresAuth": false
+}
+

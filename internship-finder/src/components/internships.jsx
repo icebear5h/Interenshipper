@@ -13,20 +13,20 @@ import SearchBox from "./searchBox";
 class Internships extends Component {
     state = {
         internships: [],
-        genres: [],
+        //genres: [],
         currentPage: 1,
-        pageSize: 4,
+        pageSize: 8,
         searchQuery: "",
         selectedGenre: null,
         sortColumn: { path: "title", order: "asc" }
     };
 
     async componentDidMount() {
-        const {data} = await getGenres();
-        const genres = [{ _id: "", name: "All Genres" }, ...data];
+        //const {data} = await getGenres();
+        //const genres = [{ _id: "", name: "All Genres" }, ...data];
         const {data:internships} = await getInternships();
         //console.log(internships,genres)
-        this.setState({ internships, genres });
+        this.setState({ internships });
     }
 
     //   handleLike = internship => {
@@ -41,9 +41,9 @@ class Internships extends Component {
         this.setState({ currentPage: page });
     };
 
-    handleGenreSelect = genre => {
-        this.setState({ selectedGenre: genre, searchQuery: "", currentPage: 1 });
-    };
+    // handleGenreSelect = genre => {
+    //     this.setState({ selectedGenre: genre, searchQuery: "", currentPage: 1 });
+    // };
 
     handleSearch = query => {
         this.setState({ searchQuery: query, selectedGenre: null, currentPage: 1 });
@@ -89,13 +89,13 @@ class Internships extends Component {
 
         return (
             <div className="row">
-                <div className="col-2 align-self-start">
+                {/* <div className="col-2 align-self-start">
                     <ListGroup
                         items={this.state.genres}
                         selectedItem={this.state.selectedGenre}
                         onItemSelect={this.handleGenreSelect}
                     />
-                </div>
+                </div> */}
                 <div className="col">
                     {user && (
                         <Link
