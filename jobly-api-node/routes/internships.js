@@ -1,19 +1,19 @@
 const { Internship, validate } = require("../models/internship");
-const { Genre } = require("../models/genre");
-const auth = require("../middleware/auth");
 const admin = require("../middleware/admin");
 const validateObjectId = require("../middleware/validateObjectId");
 const moment = require("moment");
 const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
+const { requireSession } = require('@clerk/clerk-sdk-node');
+
 
 router.get("/", async (req, res) => {
   const internships = await Internship.find().sort("name");
   res.send(internships);
 });
 
-router.post("/", [auth], async (req, res) => {
+router.post("/",  async (req, res) => {
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
@@ -34,7 +34,7 @@ router.post("/", [auth], async (req, res) => {
   res.send(internship);
 });
 
-router.put("/:id", [auth], async (req, res) => {
+router.put("/:id",  async (req, res) => {
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
@@ -60,7 +60,7 @@ router.put("/:id", [auth], async (req, res) => {
   res.send(internship);
 });
 
-router.delete("/:id", [auth, admin], async (req, res) => {
+router.delete("/:id", admin, async (req, res) => {
   const internship = await Internship.findByIdAndRemove(req.params.id);
 
   if (!internship)

@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { getInternship } from '../../services/internshipService';
-import { Link } from "react-router-dom";
 import {getColor} from "./tableBody"
 
 
@@ -36,7 +35,7 @@ const Card = ({internshipId}) => {
                     ))}
                 </ul>
                 <div className="card-body">
-                    <a href={link} target="_blank"className="card-link">{link}</a>
+                    <a href={link} target="_blank" rel="noopener noreferrer" className="card-link">{link}</a>
                 </div>
             </div>
             

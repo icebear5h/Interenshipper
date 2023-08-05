@@ -1,6 +1,5 @@
 import React from 'react';
 import { addToList, removeFromList } from '../services/userService';
-import { async } from '../services/authService';
 
 const AddListButton = ({internship, user, updateUser}) => {
     let classes = "btn btn-sm";

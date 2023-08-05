@@ -1,7 +1,9 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { useUser } from "@clerk/clerk-react";
 
-const NavBar = ({user}) => {
+const NavBar = () => {
+  const { isSignedIn } = useUser();
   
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -25,7 +27,7 @@ const NavBar = ({user}) => {
             Internships
           </NavLink>
           
-          {!user && (
+          {!isSignedIn && (
             <React.Fragment>
               <NavLink className="nav-item nav-link" to="/login">
                 Login
@@ -35,7 +37,7 @@ const NavBar = ({user}) => {
               </NavLink>
             </React.Fragment>
           )}
-          {user && (
+          {isSignedIn && (
             <React.Fragment>
               {/* <NavLink className="nav-item nav-link" to="/profile">
                 {user.name}

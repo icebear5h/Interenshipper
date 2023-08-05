@@ -1,8 +1,6 @@
 const Joi = require('joi');
 const string = require('joi/lib/types/string');
 const mongoose = require('mongoose');
-const {genreSchema} = require('./genre');
-const {paySchema} = require('./pay');
 
 
 const Internship = mongoose.model('Internships', new mongoose.Schema({
@@ -19,7 +17,7 @@ const Internship = mongoose.model('Internships', new mongoose.Schema({
   },
   tags: { 
     type: Array,  
-    required: true
+    required: false,
   },
   pay: {
     type: String,
@@ -27,9 +25,13 @@ const Internship = mongoose.model('Internships', new mongoose.Schema({
   },
   requirements: {
     type: Array,
-    required: true
+    required: false
   },
   link: {
+    type: String,
+    required: true,
+  },
+  summary:{
     type: String,
     required: true,
   }

@@ -1,44 +1,35 @@
 import http from "./httpService";
-import { getCurrentUser } from "./authService";
+import { Clerk } from "@clerk/clerk-sdk-node";
 import config from "../config.json";
-//import { get } from "lodash";
-//import { getByDisplayValue, getByTestId } from "@testing-library/react";
 
+const clerk = new Clerk(process.env.CLERK_BACKEND_API_KEY);
 const apiEndpoint = config.apiUrl + "/users";
 
-export function register(user) {
-  return http.post(apiEndpoint, {
-    email: user.username,
-    password: user.password,
-    name: user.name,
-  });
+export async function getUser(userId) {
+  const user = await clerk.users.getUser(userId);
+  return user;
 }
 
-export async function getUser() {
-  //get token
-  const userJWT = getCurrentUser();
-  if (userJWT === null) return null;
-  //console.log(userJWT);
-  //find by id
-  const user = await http.post(apiEndpoint+"/me", {
-    userId:userJWT._id
-  });
-  //console.log(user.data.user);
-  return user.data.user;
-}
+export async function addToList(internshipId, sessionToken) {
+  const session = await clerk.sessions.verifyToken(sessionToken);
+  if (!session) throw new Error("User not signed in");
 
-export async function addToList (internshipId, userId){
-  const user = await http.post(apiEndpoint+"/me/interestList", {
+  const response = await http.post(apiEndpoint + "/me/interestList", {
     internshipId,
-    userId
+    userId: session.userId
   });
-  return user.data;
+
+  return response.data;
 }
 
-export async function removeFromList (internshipId, userId){
-  const user  = await http.post(apiEndpoint+"/me/deleteFromInterestList", {
+export async function removeFromList(internshipId, sessionToken) {
+  const session = await clerk.sessions.verifyToken(sessionToken);
+  if (!session) throw new Error("User not signed in");
+
+  const response = await http.post(apiEndpoint + "/me/deleteFromInterestList", {
     internshipId,
-    userId
+    userId: session.userId
   });
-  return user.data;
+
+  return response.data;
 }

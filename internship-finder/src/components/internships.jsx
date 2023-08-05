@@ -5,7 +5,6 @@ import InternshipsTable from "./internshipsTable";
 import ListGroup from "./common/listGroup";
 import Pagination from "./common/pagination";
 import { getInternships } from "../services/internshipService"
-import { getGenres } from "../services/genreService";
 import { paginate } from "../utils/paginate";
 import _ from "lodash";
 import SearchBox from "./searchBox";
@@ -26,7 +25,11 @@ class Internships extends Component {
         //const genres = [{ _id: "", name: "All Genres" }, ...data];
         const {data:internships} = await getInternships();
         //console.log(internships,genres)
-        this.setState({ internships });
+        const estimatedRowHeight = 50; // Adjust this value based on your actual row height
+        const headerFooterHeight = 200; // Adjust this value based on the height of your other elements
+        const availableHeight = window.innerHeight - headerFooterHeight;
+        const pageSize = Math.floor(availableHeight / estimatedRowHeight);
+        this.setState({ internships, pageSize });
     }
 
     //   handleLike = internship => {
